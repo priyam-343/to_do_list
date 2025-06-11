@@ -34,15 +34,13 @@ Make sure you have [Node.js](https://nodejs.org/) and `npm` (Node Package Manage
 ### Installation
 
 1.  **Clone the repository:**
-    Open your terminal or command prompt and clone this project:
     ```bash
-    git clone <YOUR_REPO_URL>
+    git clone https://github.com/priyam-343/to_do_list.git
     ```
-    Replace `<YOUR_REPO_URL>` with the actual URL of your GitHub repository (e.g., `https://github.com/your-username/your-repo-name.git`).
 
 2.  **Navigate to the project directory:**
     ```bash
-    cd to_do_app
+    cd to_do_list
     ```
 
 3.  **Install dependencies:**
@@ -89,7 +87,7 @@ Once the application is running (using `npm start`), perform the following check
     * **_Verify:_** The task instantly disappears from the list.
 
 4.  **Data Persistence (Local Storage):**
-    * Add, complete, and remove several tasks.
+    * Add a few tasks, mark some as complete, and remove others.
     * **Refresh your browser page** (`Ctrl/Cmd + R`).
     * **_Verify:_** All tasks and their statuses are retained exactly as you left them.
 
@@ -117,5 +115,3 @@ Once the application is running (using `npm start`), perform the following check
 
 You can learn more about React in the official [React documentation](https://react.dev/).
 This project was initially set up using [Create React App](https://create-react-app.dev/).
-
----
